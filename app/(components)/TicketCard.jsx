@@ -5,7 +5,7 @@ import { StatusDisplay } from "./StatusDisplay";
 
 const TicketCard = () => {
   return (
-    <div className="flex flex-col bg-card-hover rounded-md shadow-lg p-3 m-2">
+    <div className="flex flex-col bg-card hover:bg-card-hover rounded-md shadow-lg p-3 m-2">
       <div className="flex mb-3">
         <PriorityDisplay />
         <div className="ml-auto">
@@ -14,7 +14,9 @@ const TicketCard = () => {
       </div>
       <h4>Ticket Title</h4>
       <hr className="h-px border-0 bg-page mb-2 " />
-      <p className="whitespace-pre-wrap">This is ticket description</p>
+      <p className="whitespace-pre-wrap">
+        This is ticket description! Please do this Ticket
+      </p>
       <div className="flex-grow"></div>
       <div className="flex mt-2">
         <div className="flex flex-col">
